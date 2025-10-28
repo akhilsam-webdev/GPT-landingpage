@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right top, #090a2a, #0a0e31, #0a1138, #0c1340, #0f1547, #201d5a, #32256c, #452c7f, #6e3ba1, #9b48c1, #cb55df, #ff60fb);
+  color: rgb(232, 229, 229);
+}
+main .one {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+main .one .heading {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  line-height: 1;
+}
+main .one .gpt {
+  width: 60%;
+  background-color: #090a2a;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .one .gpt h3 {
+  width: 90%;
+  opacity: 0.5;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+main .one .gpt .logo {
+  width: 90%;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+main .one .gpt .logo .divone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .one .gpt .logo .divone .left {
+  width: 20px;
+  height: 20px;
+  background-image: url(./Copilot\ icon.png);
+  background-position: center;
+  background-size: cover;
+}
+main .one .gpt .logo .divone button {
+  padding: 0.5rem 2rem;
+  background: transparent;
+  color: white;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.432);
+  border-top: 1px solid rgba(255, 255, 255, 0.432);
+  border-right: 1px solid rgba(255, 255, 255, 0.166);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.166);
+  border-radius: 0.5rem;
+}
+main .one .gpt .logo .divtwo a {
+  text-decoration: none;
+  color: white;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+main .one .btn {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+main .one .btn button {
+  background-color: #0a1138;
+  color: rgba(255, 255, 255, 0.549);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+main .one .btn :hover {
+  color: white;
+  background-color: #090a2a;
+  cursor: pointer;
+}
+main .two {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+main .two .cardone {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #010117;
+  border-radius: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+main .two .cardone .titel {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  opacity: 0.7;
+}
+main .two .cardone .titel div {
+  padding-left: 10rem;
+}
+main .two .cardone .file1,
+main .two .cardone .file2,
+main .two .cardone .file3,
+main .two .cardone .file4 {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+main .two .cardone .file1 .picture,
+main .two .cardone .file2 .picture,
+main .two .cardone .file3 .picture,
+main .two .cardone .file4 .picture {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880);
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+main .two .cardone .file1 .desc,
+main .two .cardone .file2 .desc,
+main .two .cardone .file3 .desc,
+main .two .cardone .file4 .desc {
+  width: 100%;
+}
+main .two .cardone .file1 .desc p,
+main .two .cardone .file2 .desc p,
+main .two .cardone .file3 .desc p,
+main .two .cardone .file4 .desc p {
+  opacity: 0.7;
+}
+main .two .cardone .file2 .picture {
+  background-image: url(https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1021);
+}
+main .two .cardone .file3 .picture {
+  background-image: url(https://plus.unsplash.com/premium_photo-1690587673708-d6ba8a1579a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=679);
+}
+main .two .cardone .file4 .picture {
+  background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=688);
+}
+main .two .cardone :hover {
+  cursor: pointer;
+}
+main .two .cardtwo {
+  width: 30%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: #010117;
+  border-radius: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+main .two .cardtwo .titel {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  opacity: 0.7;
+}
+main .two .cardtwo .titel div {
+  padding-left: 5rem;
+}
+main .two .cardtwo .upper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+main .two .cardtwo .upper .image {
+  width: 50px;
+  height: 50px;
+}
+main .two .cardtwo .upper .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .two .cardtwo .lower {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+main .two .cardtwo .lower .image {
+  width: 50px;
+  height: 50px;
+}
+main .two .cardtwo .lower .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .two .cardthree {
+  width: 30%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: #010117;
+  border-radius: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+main .two .cardthree .titel {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  align-items: center;
+  opacity: 0.7;
+}
+main .two .cardthree .file1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+main .two .cardthree .file1 .picture i {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
